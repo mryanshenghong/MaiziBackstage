@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>MaiZiHome</title>
+	<link rel="stylesheet" href="./lib/css/bootstrap.css">
+	<link rel="stylesheet" href="./lib/css/common.css">
+</head>
+<body>
+	
+	<!-- navbar start -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- toggle button  start-->
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- nav logo start -->
+				<a href="index.html" class="navbar-brand">MaiZi Admin</a>
+				<!-- nav logo end -->
+			</div>
+			<!-- toggle button end -->
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html"><span class="
+						glyphicon glyphicon-home"></span>后台首页</a></li>
+						<li><a href="user.html"><span class="
+							glyphicon glyphicon-user"></span>用户管理</a></li>
+							<li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>内容管理</a></li>
+							<li><a href="tag.html"><span class="glyphicon glyphicon-tag"></span>标签管理</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a type="button" data-toggle="dropdown">
+									admin
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a>
+										<a href=""><span class="
+											glyphicon glyphicon-user"></span>&nbsp;个人主页</a>
+											<a href=""><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a>
+											<a href=""><span class="glyphicon glyphicon-briefcase"></span>&nbsp;账户中心</a>
+											<a href=""><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href=""><span class="glyphicon glyphicon-off"></span>&nbsp;退出</a></li>
+							</ul>
+						</div>
+					</div>
+	</nav>
+				<!-- navbar end -->
+
+				<!-- alert start-->
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12">
+							<div class="alert alert-danger alert-dismissible fade in" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button> 
+								<h4>网站有漏洞，急需修复</h4>
+								<p>当前版本较低，容易造成被攻击，请升级版本</p> 
+								<p> 
+									<button type="button" class="btn btn-danger">立即修复</button> 
+									<button type="button" class="btn btn-default" data-dismiss="alert">稍后处理</button> 
+								</p> 
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">网站数据统计</div>
+								<div class="panel-body">
+									<table class="table table-hover">
+										<thead>
+											<tr>
+												<th>统计数据</th>
+												<th>昨日</th>
+												<th>今日</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>注册会员</td>
+												<td>200</td>
+												<td>1533</td>
+											</tr>
+											<tr>
+												<td>登录会员</td>
+												<td>4100</td>
+												<td>5500</td>
+											</tr>
+											<tr>
+												<td>今日发帖</td>
+												<td>22200</td>
+												<td>11122</td>
+											</tr>
+											<tr>
+												<td>转载次数</td>
+												<td>2000</td>
+												<td>2500</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">网站热帖</div>
+
+								<ul class="list-group">
+									<li class="list-group-item"><a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="
+										glyphicon glyphicon-hand-right">&nbsp;</span>2018课程火爆招生<small class="pull-right">2018/9/9</small></a></li>
+										<li class="list-group-item"><a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="
+											glyphicon glyphicon-hand-right">&nbsp;</span>2018课程火爆招生<small class="pull-right">2018/9/9</small></a></li>
+										<li class="list-group-item"><a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="
+												glyphicon glyphicon-hand-right">&nbsp;</span>2018课程火爆招生<small class="pull-right">2018/9/9</small></a></li>
+										<li class="list-group-item"><a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="
+													glyphicon glyphicon-hand-right">&nbsp;</span>2018课程火爆招生<small class="pull-right">2018/9/9</small></a></li>
+										<li class="list-group-item"><a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="
+														glyphicon glyphicon-hand-right">&nbsp;</span>2018课程火爆招生<small class="pull-right">2018/9/9</small></a></li>
+										<li class="list-group-item"><a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="
+															glyphicon glyphicon-hand-right">&nbsp;</span>2018课程火爆招生<small class="pull-right">2018/9/9</small></a></li>
+								</ul>
+
+								</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">今日访客统计</div>
+								<div class="panel-body">
+									<canvas id="visitors"></canvas>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">服务器状态</div>
+								<div class="panel-body">
+									<p>内存使用率40%</p>
+									<div class="progress">
+									  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+									    <span class="sr-only">40% Complete (success)</span>
+									  </div>
+									</div>
+									<p>数据库使用率20%</p>
+									<div class="progress">
+									  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+									    <span class="sr-only">20% Complete (success)</span>
+									  </div>
+									</div>
+									<p>磁盘使用率60%</p>
+									<div class="progress">
+									  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									    <span class="sr-only">60% Complete (warning)</span>
+									  </div>
+									</div>
+									<p>CPU使用率80%</p>
+									<div class="progress">
+									  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									    <span class="sr-only">80% Complete (danger)</span>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<!-- 留言板开始 -->
+						<div class="col-md-12">
+							<div class="panel panel-default">
+								<div class="panel-heading">团队留言版</div>
+								<div class="panel-body">
+									<div class="col-md-7">
+										<ul class="media-list well">
+										  <li class="media">
+										    <div class="pull-right">
+										      <a href="#">
+										        <img class="media-object wh64" src="./images/i.png">
+										      </a>
+										    </div>
+										    <div class="media-body text-right">
+										      <h4 class="media-heading">技术1</h4>
+										      
+										      <p>升级系统</p>
+										    </div>
+										  </li>
+										</ul>
+										<ul class="media-list well">
+										  <li class="media">
+										    <div class="pull-left">
+										      <a href="#">
+										        <img class="media-object wh64" src="./images/a.png">
+										      </a>
+										    </div>
+										    <div class="media-body">
+										      <h4 class="media-heading">技术2</h4>
+										      收到
+										    </div>
+										  </li>
+										</ul>
+										<ul class="media-list well">
+										  <li class="media">
+										    <div class="pull-right">
+										      <a href="#">
+										        <img class="media-object wh64" src="./images/i.png">
+										      </a>
+										    </div>
+										    <div class="media-body text-right">
+										      <h4 class="media-heading">技术1</h4>
+										      发布通知
+										    </div>
+										  </li>
+										</ul>
+										<ul class="media-list well">
+										  <li class="media">
+										    <div class="pull-left">
+										      <a href="#">
+										        <img class="media-object wh64" src="./images/a.png">
+										      </a>
+										    </div>
+										    <div class="media-body">
+										      <h4 class="media-heading">技术2</h4>
+										      谢谢
+										    </div>
+										  </li>
+										</ul>
+									</div>
+									<div class="col-md-5">
+										 <form action="#">
+										 	<div class="form-group">
+										 		<label for="text">输入留言内容</label>
+										 		<textarea class="form-control" id="" cols="10" rows="5" placeholder="请输入留言内容"></textarea>
+										 		<button type="submit" class="btn btn-default">留言</button>
+										 	</div>
+										 </form>
+										 <div class="panel panel-default">
+										 	<div class="panel-heading">团队联系手册</div>
+										 	<div class="panel-body">
+										 		<ul class="list-group">
+												  <li class="list-group-item">站长(成龙):&nbsp;<span class="
+glyphicon glyphicon-earphone"></span>&nbsp;13768777667</li>
+												  <li class="list-group-item">技术部(李连杰):&nbsp;<span class="
+glyphicon glyphicon-earphone"></span>&nbsp;13768777667</li>
+												  <li class="list-group-item">推广(林青霞):&nbsp;<span class="
+glyphicon glyphicon-earphone"></span>&nbsp;13768777667</li>
+												  <li class="list-group-item">客服(花粥):&nbsp;<span class="
+glyphicon glyphicon-earphone"></span>&nbsp;13768777667</li>
+												</ul>
+										 	</div>
+										 </div>
+									</div>
+								</div>
+							</div>
+						</div>
+				<!-- 留言板结束 -->
+						</div>
+					</div>
+				<!-- alert end -->
+	<!-- footer start  -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						Copyright&nbsp;©&nbsp;YYYY-YYYY&<n>	</n>WWW.XXXXXX.COM&nbsp;&nbsp;XXXXXX-XXXXX
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+<script src="./lib/js/jquery-3.3.1.min.js"></script>
+<script src="./lib/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script>
+	$(function(){
+		$('.navbar-collapse a').click(function(){
+		$('.navbar-collapse').collapse('hide');
+		});
+	});
+
+var ctx = document.getElementById('visitors').getContext('2d');
+var chart = new Chart(ctx, {
+    // 要创建的图表类型
+    type: 'line',
+
+    // 数据集
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+            label: "My First dataset",
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45],
+        }]
+    },
+
+    // 配置项
+    options: {}
+});
+	</script>
+</body>
+</html>

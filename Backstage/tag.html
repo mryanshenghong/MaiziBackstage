@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>MaiZiHome</title>
+	<link rel="stylesheet" href="./lib/css/bootstrap.css">
+	<link rel="stylesheet" href="./lib/css/common.css">
+</head>
+<body>
+	
+	<!-- navbar start -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- toggle button  start-->
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!-- nav logo start -->
+			<a href="index.html" class="navbar-brand">MaiZi Admin</a>
+			<!-- nav logo end -->
+		</div>
+			<!-- toggle button end -->
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html"><span class="
+					glyphicon glyphicon-home"></span>后台首页</a></li>
+					<li><a href="user.html"><span class="
+					glyphicon glyphicon-user"></span>用户管理</a></li>
+					<li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>内容管理</a></li>
+					<li  class="active"><a href="tag.html"><span class="glyphicon glyphicon-tag"></span>标签管理</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+	  					<a type="button" data-toggle="dropdown">
+		   				 	admin
+		   				 	<span class="caret"></span>
+	 					 </a>
+	  					<ul class="dropdown-menu">
+						<li>
+							<a href="http://www.mryanshenghong.com/Demo/maiziHome/index_ZN_CH.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a>
+							<a href=""><span class="
+							glyphicon glyphicon-user"></span>&nbsp;个人主页</a>
+							<a href=""><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a>
+							<a href=""><span class="glyphicon glyphicon-briefcase"></span>&nbsp;账户中心</a>
+							<a href=""><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a>
+						</li>
+					  	</ul>
+					</li>
+					<li><a href=""><span class="glyphicon glyphicon-off"></span>&nbsp;退出</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- navbar end -->
+	<!-- tag start -->
+	<div class="container">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h3>TAG标签管理</h3>
+			</div>
+			<div class="col-md-12 pad0">
+				<form>
+				<div class="col-md-10">
+					<input type="text" class="form-control" placeholder="请输入要加的标签">
+				</div>
+				<div class="col-md-2">
+					<button type="submit" class="btn btn-default">添加</button>
+				</div>
+				</form>
+			</div>
+			<div class="col-md-12 taglist">
+	                <div class="alert alert-info alert-dismissible pull-left" role="alert">
+	                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+	                    <strong>bootstrap</strong>
+	                </div>
+	                <div class="alert alert-info alert-dismissible  pull-left" role="alert">
+	                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+	                    <strong>麦子学院</strong>
+	                </div>
+	                <div class="alert alert-info alert-dismissible  pull-left" role="alert">
+	                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+	                    <strong>前端课程</strong>
+	                </div>
+	          </div>
+		</div>
+	</div>
+	<!-- tag end -->
+	<!-- footer start  -->
+	<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Copyright&nbsp;©&nbsp;YYYY-YYYY&nbsp;&nbsp;WWW.XXXXXX.COM&nbsp;&nbsp;XXXXXX-XXXXX
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+	<!-- footer end -->
+<script src="./lib/js/jquery-3.3.1.min.js"></script>
+<script src="./lib/js/bootstrap.js"></script>
+<script>
+	$(function(){
+		$('.navbar-collapse a').click(function(){
+			$('.navbar-collapse').collapse('hide');
+		});
+	});
+
+</script>
+</body>
+</html>
